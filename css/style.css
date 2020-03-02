@@ -46,6 +46,7 @@ ul{
     align-items: center;
     padding: 20px 0px;
     box-shadow: 0px 13px 10px rgb(0, 0, 0.5);
+
 }
 
 .cabecalho nav{
@@ -56,4 +57,27 @@ ul{
     display: flex;
     justify-content: space-around;
 
+}
+
+.banner{
+    width: 100%;
+    height: 400px;
+    background-image: url("../imagens/Imagens/meta_mundo.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+.banner .btn{
+    margin-top: 230px;
 }
